@@ -10,8 +10,8 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping("/tony")
-    public String tony(){
-        return"tony";
+    @RequestMapping("/login")
+    public String login(){
+        return"login";
     }
 }
